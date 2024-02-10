@@ -19,7 +19,7 @@ setup(
     license="BSD license",
     include_package_data=True,
     packages=find_packages(),
-    install_requires=["wagtail>=3.0,<6"],
+    install_requires=["wagtail>=3.0,<7"],
     classifiers=[
         "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",
@@ -32,5 +32,6 @@ setup(
         "Framework :: Wagtail :: 3",
         "Framework :: Wagtail :: 4",
         "Framework :: Wagtail :: 5",
+        "Framework :: Wagtail :: 6",
     ],
 )
